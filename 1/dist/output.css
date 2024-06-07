@@ -554,11 +554,36 @@ video {
   --tw-contain-style:  ;
 }
 
-.font-Kaushan {
-  font-family: 'Kaushan Script', cursive;
+.text-center {
+  text-align: center;
+}
+
+.font-Tilt {
+  font-family: Tilt, sans-serif;
+}
+
+.font-MuolLight {
+  font-family: MuolLight, sans-serif;
+}
+
+.text-red-300 {
+  --tw-text-opacity: 1;
+  color: rgb(252 165 165 / var(--tw-text-opacity));
 }
 
 .text-sky-900 {
   --tw-text-opacity: 1;
   color: rgb(12 74 110 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: Tilt;
+
+  src: url(/assets/TiltPrism-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: MuolLight;
+
+  src: url(/assets/KhmerOSmuollight.ttf) format('truetype');
 }

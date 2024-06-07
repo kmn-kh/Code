@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'Kaushan':"'Kaushan Script', cursive",
+        Tilt:["Tilt", "sans-serif"],
+        MuolLight:["MuolLight", "sans-serif"],
       }
     },
   },
